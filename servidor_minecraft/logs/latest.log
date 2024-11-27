@@ -1,9 +1,9 @@
-[01:31:02] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
-[01:31:02] [ForkJoinPool-1-worker-2/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[01:31:03] [main/WARN]: Warnings were found!
+[02:35:05] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.9
+[02:35:05] [ForkJoinPool-1-worker-1/WARN]: Mod tectonic uses the version 2.4.1a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '1a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[02:35:05] [main/WARN]: Warnings were found!
  - Mod 'Forge Config API Port' (forgeconfigapiport) 21.1.2 recommends any version of modmenu, which is missing!
 	 - You should install any version of modmenu for the optimal experience.
-[01:31:03] [main/INFO]: Loading 94 mods:
+[02:35:05] [main/INFO]: Loading 94 mods:
 	- appleskin 3.0.6+mc1.21
 	   \-- cloth-config 15.0.127
 	        \-- cloth-basic-math 0.6.1
@@ -117,445 +117,96 @@
 	   \-- sgui 1.6.0+1.21
 	- variantvanillablocks 2.1
 	- xaerominimap 24.6.1
-[01:31:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[01:31:03] [main/INFO]: Compatibility level set to JAVA_21
-[01:31:03] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[01:31:04] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/TomatoVineBlock)
-[01:31:04] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
-[01:31:04] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[01:31:05] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[01:31:18] [main/INFO]: Biolith for Fabric is initializing...
-[01:31:18] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
-[01:31:19] [main/INFO]: Constructing common components for easyanvils:main
-[01:31:19] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
-[01:31:19] [main/INFO]: Constructing common components for easymagic:main
-[01:31:19] [main/INFO]: Dispatching loading event for config easymagic-common.toml
-[01:31:19] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
-[01:31:19] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
-[01:31:19] [main/INFO]: ---------------------------
-[01:31:19] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
-[01:31:19] [main/INFO]:  
-[01:31:19] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
-[01:31:19] [main/INFO]: Open Imaging is licensed under Apache-2.0.
-[01:31:19] [main/INFO]:  
-[01:31:19] [main/INFO]: JsonPath Copyright © 2017 Jayway.
-[01:31:19] [main/INFO]: JsonPath is licensed under Apache-2.0.
-[01:31:19] [main/INFO]:  
-[01:31:19] [main/INFO]: Json-smart Copyright © netplex.
-[01:31:19] [main/INFO]: Json-smart is licensed under Apache-2.0.
-[01:31:19] [main/INFO]:  
-[01:31:19] [main/INFO]: Exp4j Copyright © Frank Asseg.
-[01:31:19] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
-[01:31:19] [main/INFO]: ---------------------------
-[01:31:19] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
-[01:31:19] [main/INFO]: Constructing common components for puzzleslib:main
-[01:31:20] [main/INFO]: Loaded config supplementaries-common.json
-[01:31:22] [main/INFO]: Initialized block sets in 12ms
-[01:31:22] [main/ERROR]: No data fixer registered for dispenser_minecart
-[01:31:22] [main/ERROR]: No data fixer registered for falling_urn
-[01:31:22] [main/ERROR]: No data fixer registered for falling_ash
-[01:31:22] [main/ERROR]: No data fixer registered for falling_sack
-[01:31:22] [main/ERROR]: No data fixer registered for brick_projectile
-[01:31:22] [main/ERROR]: No data fixer registered for slimeball_projectile
-[01:31:22] [main/ERROR]: No data fixer registered for bomb
-[01:31:22] [main/ERROR]: No data fixer registered for cannonball
-[01:31:22] [main/ERROR]: No data fixer registered for rope_arrow
-[01:31:22] [main/ERROR]: No data fixer registered for slingshot_projectile
-[01:31:22] [main/INFO]: Initialized color sets in 31ms
-[01:31:22] [main/INFO]: Finished mod setup in: [0, 5, 0, 0, 19, 5, 1] ms
-[01:31:22] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[01:31:22] [main/ERROR]: Registry 'terraform:boat' was empty after loading
-[01:31:22] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[01:31:22] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 34 ms
-[01:31:24] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/mvs:rare - Failed to parse either. First: Not a valid resource location: #minecraft:enchant_with_levels Non [a-z0-9_.-] character in namespace of location: #minecraft:enchant_with_levels; Second: Not a json array: {"function":"#minecraft:enchant_with_levels","options":"#minecraft:on_random_loot","levels":{"type":"minecraft:uniform","min":20,"max":39},"treasure":true}
-[01:31:25] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
-[01:31:26] [main/INFO]: Loaded 1782 recipes
-[01:31:26] [main/INFO]: Loaded 1649 advancements
-[01:31:26] [Thread-3/INFO]: Loaded 58 translation keys
-[01:31:26] [main/INFO]: Loaded 27 flute songs
-[01:31:26] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/lead, c:storage_blocks/lead, supplementaries:buntings, supplementaries:concrete_powders
-[01:31:27] [main/INFO]: Registering custom dispenser behaviors
-[01:31:28] [main/INFO]: Applied 155 biome modifications to 78 of 94 new biomes in 28.44 ms
-[01:31:28] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
-[01:31:28] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
-[01:31:28] [Server thread/INFO]: Starting minecraft server version 1.21.1
-[01:31:28] [Server thread/INFO]: Loading properties
-[01:31:28] [Server thread/INFO]: Default game type: SURVIVAL
-[01:31:28] [Server thread/INFO]: Generating keypair
-[01:31:28] [Server thread/INFO]: Starting Minecraft server on *:25565
-[01:31:28] [Server thread/INFO]: Using epoll channel type
-[01:31:29] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[01:31:29] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[01:31:29] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[01:31:29] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[01:31:29] [Server thread/INFO]: Preparing level "world"
-[01:31:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[01:31:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:31:47] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[01:31:48] [Server thread/INFO]: Time elapsed: 1236 ms
-[01:31:48] [Server thread/INFO]: Done (19.214s)! For help, type "help"
-[01:31:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[01:31:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[01:31:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[01:31:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[01:31:48] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[01:31:48] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
-[01:31:48] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
-[01:31:48] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_faucet_test_level' in favor of 'minecraft:overworld'
-[01:32:20] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_projectile_test_level' in favor of 'minecraft:overworld'
-[01:32:20] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 32653ms or 653 ticks behind
-[01:32:20] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[01:32:21] [Server thread/INFO]: Steven_iwnl (/[0:0:0:0:0:0:0:1%0]:47390) lost connection: Timed out
-[01:32:21] [Server thread/INFO]: Jere167 (/[0:0:0:0:0:0:0:1%0]:43290) lost connection: Timed out
-[01:32:21] [Server thread/INFO]: JSCD80 (/[0:0:0:0:0:0:0:1%0]:43334) lost connection: Timed out
-[01:32:23] [Thread-11/WARN]: failed to fetch skin
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2578) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2577) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2562) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:32:27] [Server thread/INFO]: Jere167[/[0:0:0:0:0:0:0:1%0]:47872] logged in with entity id 43 at (119.41835496529757, -2.078400001525879, 1529.2853891928778)
-[01:32:27] [Server thread/INFO]: Jere167 joined the game
-[01:32:42] [Server thread/INFO]: DonnoT27[/[0:0:0:0:0:0:0:1%0]:57792] logged in with entity id 186 at (115.69988273064148, 3.0, 1510.6417667318283)
-[01:32:42] [Server thread/INFO]: DonnoT27 joined the game
-[01:32:43] [Thread-13/WARN]: failed to fetch skin
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2578) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2577) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2562) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[01:32:48] [Server thread/INFO]: Matirex53[/[0:0:0:0:0:0:0:1%0]:51354] logged in with entity id 450 at (-486.69999998807907, 36.0, 747.6999999880791)
-[01:32:48] [Server thread/INFO]: Matirex53 joined the game
-[01:32:49] [Server thread/INFO]: RackyShao[/[0:0:0:0:0:0:0:1%0]:51364] logged in with entity id 464 at (98.96170716590636, -3.260291581379387, 1533.62766673147)
-[01:32:49] [Server thread/INFO]: RackyShao joined the game
-[01:32:49] [Server thread/INFO]: ReynFabio[/[0:0:0:0:0:0:0:1%0]:51380] logged in with entity id 503 at (411.4459390772983, 68.0, 1617.414403829081)
-[01:32:49] [Server thread/INFO]: ReynFabio joined the game
-[01:32:50] [Server thread/INFO]: Yeric0ckman[/[0:0:0:0:0:0:0:1%0]:51346] logged in with entity id 582 at (319.2277830448022, 26.0, 1561.7678675465397)
-[01:32:50] [Server thread/INFO]: Yeric0ckman joined the game
-[01:32:52] [Server thread/INFO]: DonnoT27 has made the advancement [Acquire Hardware]
-[01:32:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20459ms or 409 ticks behind
-[01:32:57] [Server thread/INFO]: Steven_iwnl[/[0:0:0:0:0:0:0:1%0]:51410] logged in with entity id 809 at (47.00350332068797, 84.0, 1360.6839133413205)
-[01:32:57] [Server thread/INFO]: Steven_iwnl joined the game
-[01:32:58] [Server thread/INFO]: kalibre191[/[0:0:0:0:0:0:0:1%0]:59628] logged in with entity id 838 at (-302.01564678953247, 73.0, 1753.307114942599)
-[01:32:58] [Server thread/INFO]: kalibre191 joined the game
-[01:33:04] [Worker-Main-2/WARN]: Empty or non-existent pool: minecraft:
-[01:33:14] [Server thread/INFO]: RackyShao (/[0:0:0:0:0:0:0:1%0]:37824) lost connection: Timed out
-[01:33:15] [Server thread/WARN]: kalibre191 moved too quickly! -0.5821926661488988,-10.386350643089493,-1.03322609346651
-[01:33:15] [Server thread/WARN]: Steven_iwnl moved too quickly! 9.830590152279072,1.1661092609382138,1.957621151516605
-[01:33:16] [Server thread/ERROR]: POI data mismatch: never registered at class_2338{x=416, y=70, z=1617}
-[01:33:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12838ms or 256 ticks behind
-[01:33:29] [Server thread/INFO]: DonnoT27 has made the advancement [Isn't It Iron Pick]
-[01:33:30] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]
-[01:33:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3500ms or 70 ticks behind
-[01:33:54] [Server thread/INFO]: Fervel05[/[0:0:0:0:0:0:0:1%0]:55552] logged in with entity id 1302 at (-322.69999998807907, -13.0, 1108.3060147682545)
-[01:33:54] [Server thread/INFO]: Fervel05 joined the game
-[01:34:00] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2485ms or 49 ticks behind
-[01:34:05] [Server thread/INFO]: Steven_iwnl was slain by Zombie
-[01:34:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2889ms or 57 ticks behind
-[01:34:18] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Fervel05]
-[01:34:23] [Server thread/INFO]: kalibre191 has made the advancement [Getting an Upgrade]
-[01:34:27] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
-[01:34:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2112ms or 42 ticks behind
-[01:35:02] [Worker-Main-1/ERROR]: Couldn't load structure mvs:houses/medium_igloo_2
-net.minecraft.class_8911: Loading NBT data
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:530) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_53895(class_2499.java:48) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23249(class_2499.java:31) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2499$1.method_23262(class_2499.java:26) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_53889(class_2487.java:76) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23240(class_2487.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487$1.method_23262(class_2487.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_52892(class_2507.java:191) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10626(class_2507.java:186) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10625(class_2507.java:111) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2507.method_10629(class_2507.java:51) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15090(class_3485.java:242) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44231(class_3485.java:232) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15088(class_3485.java:136) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_44245(class_3485.java:114) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1740) ~[?:?]
-	at knot/net.minecraft.class_3485.method_15094(class_3485.java:104) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3485.method_15091(class_3485.java:92) ~[server-intermediary.jar:?]
-	at knot/com.mojang.datafixers.util.Either$Left.map(Either.java:38) ~[datafixerupper-8.0.16.jar:?]
-	at knot/net.minecraft.class_3781.method_27233(class_3781.java:94) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3781.method_16628(class_3781.java:134) ~[server-intermediary.jar:?]
-	at knot/com.finndog.mvs.world.structures.pieces.PieceLimitedJigsawManager.assembleJigsawStructure(PieceLimitedJigsawManager.java:108) ~[mvs-4.2.6-1.21.jar:?]
-	at knot/com.finndog.mvs.world.structures.GenericJigsawStructure.method_38676(GenericJigsawStructure.java:213) ~[mvs-4.2.6-1.21.jar:?]
-	at knot/net.minecraft.class_3195.method_47932(class_3195.java:239) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3195.method_41614(class_3195.java:160) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41044(class_2794.java:517) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2794.method_41041(class_2794.java:470) ~[server-intermediary.jar:?]
-	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
-	at knot/net.minecraft.class_2794.method_16129(class_2794.java:452) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9310.method_57601(class_9310.java:38) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9770.method_60560(class_9770.java:33) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3898.method_60442(class_3898.java:632) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9761.method_60461(class_9761.java:96) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60428(class_9759.java:143) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60427(class_9759.java:121) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60432(class_9759.java:74) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_9759.method_60424(class_9759.java:59) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3898.method_60446(class_3898.java:665) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3900.method_17634(class_3900.java:62) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3846.method_16907(class_3846.java:91) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_3846.method_16900(class_3846.java:146) [server-intermediary.jar:?]
-	at knot/net.minecraft.class_3846.run(class_3846.java:102) [server-intermediary.jar:?]
-	at java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(ForkJoinTask.java:1423) [?:?]
-	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
-	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
-	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
-Caused by: java.io.IOException: Invalid tag id: 116
-	at knot/net.minecraft.class_4614$1.method_39878(class_4614.java:58) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23264(class_4614.java:63) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_4614$1.method_23262(class_4614.java:56) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_2487.method_10581(class_2487.java:524) ~[server-intermediary.jar:?]
-	... 51 more
-[01:35:21] [Server thread/INFO]: RackyShao has made the advancement [Minecraft: Trial(s) Edition]
-[01:35:23] [Server thread/INFO]: Fervel05 has made the advancement [Minecraft: Trial(s) Edition]
-[01:35:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2010ms or 40 ticks behind
-[01:35:30] [Server thread/INFO]: Jere167 lost connection: Timed out
-[01:35:30] [Server thread/INFO]: Jere167 left the game
-[01:35:30] [Server thread/WARN]: handleDisconnection() called twice
-[01:35:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2930ms or 58 ticks behind
-[01:36:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2446ms or 48 ticks behind
-[01:36:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4577ms or 91 ticks behind
-[01:36:26] [Server thread/INFO]: Steven_iwnl was slain by Iron Golem
-[01:36:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4754ms or 95 ticks behind
-[01:37:04] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4684ms or 93 ticks behind
-[01:37:08] [Server thread/INFO]: JSCD80[/[0:0:0:0:0:0:0:1%0]:42378] logged in with entity id 4495 at (-244.06469119868026, 2.0, 1086.3102533461652)
-[01:37:08] [Server thread/INFO]: JSCD80 joined the game
-[01:37:09] [Server thread/WARN]: UUID of added entity already exists: class_1428['Chicken'/4548, l='ServerLevel[world]', x=-640.01, y=77.00, z=1164.12]
-[01:37:18] [Server thread/WARN]: UUID of added entity already exists: class_1428['Chicken'/4705, l='ServerLevel[world]', x=-640.07, y=75.00, z=1149.10]
-[01:37:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5107ms or 102 ticks behind
-[01:37:44] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
-[01:37:44] [Worker-Main-1/WARN]: Empty or non-existent pool: minecraft:
-[01:37:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8921ms or 178 ticks behind
-[01:38:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9472ms or 189 ticks behind
-[01:38:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3995ms or 79 ticks behind
-[01:38:51] [Server thread/INFO]: kalibre191 has made the advancement [Acquire Hardware]
-[01:38:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8231ms or 164 ticks behind
-[01:38:59] [Server thread/INFO]: Matirex53 has made the advancement [Suit Up]
-[01:39:11] [Server thread/WARN]: Couldn't set damage of loot item 1 minecraft:compass
-[01:39:19] [Server thread/INFO]: [RackyShao: Teleported RackyShao to kalibre191]
-[01:39:28] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Steven_iwnl]
-[01:39:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 18306ms or 366 ticks behind
-[01:39:38] [Server thread/INFO]: com.mojang.authlib.GameProfile@3dbfe6cc[id=d63fcb51-66e9-3d35-9a3b-9ccb34313db9,name=Camcam,properties={}] lost connection: Timed out
-[01:39:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:39:54] [Server thread/INFO]: com.mojang.authlib.GameProfile@76d4ee0f[id=d63fcb51-66e9-3d35-9a3b-9ccb34313db9,name=Camcam,properties={}] lost connection: Timed out
-[01:40:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2013ms or 40 ticks behind
-[01:40:25] [Server thread/INFO]: com.mojang.authlib.GameProfile@5d99dcc[id=d63fcb51-66e9-3d35-9a3b-9ccb34313db9,name=Camcam,properties={}] lost connection: Timed out
-[01:40:39] [Server thread/INFO]: Steven_iwnl was slain by Iron Golem
-[01:40:40] [Server thread/INFO]: JSCD80 lost connection: Timed out
-[01:40:40] [Server thread/INFO]: JSCD80 left the game
-[01:40:48] [Server thread/INFO]: DonnoT27 has made the advancement [Diamonds!]
-[01:41:12] [Server thread/INFO]: com.mojang.authlib.GameProfile@6f86d4d3[id=d63fcb51-66e9-3d35-9a3b-9ccb34313db9,name=Camcam,properties={}] lost connection: Timed out
-[01:41:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:41:34] [Server thread/INFO]: Matirex53 has made the advancement [Isn't It Iron Pick]
-[01:42:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[01:42:35] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4622ms or 92 ticks behind
-[01:43:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[01:43:56] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[01:44:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2629ms or 52 ticks behind
-[01:44:16] [Worker-Main-2/WARN]: Empty or non-existent pool: minecraft:
-[01:44:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7228ms or 144 ticks behind
-[01:45:01] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10362ms or 207 ticks behind
-[01:45:05] [Server thread/INFO]: Yeric0ckman has made the advancement [Suit Up]
-[01:45:22] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6218ms or 124 ticks behind
-[01:45:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5734ms or 114 ticks behind
-[01:45:44] [Server thread/INFO]: Yeric0ckman has made the advancement [Isn't It Iron Pick]
-[01:46:03] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5473ms or 109 ticks behind
-[01:46:24] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6071ms or 121 ticks behind
-[01:46:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5063ms or 101 ticks behind
-[01:47:00] [Worker-Main-2/WARN]: Empty or non-existent pool: minecraft:
-[01:47:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7394ms or 147 ticks behind
-[01:47:09] [Server thread/INFO]: DonnoT27 has made the advancement [Cover Me with Diamonds]
-[01:47:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7568ms or 151 ticks behind
-[01:47:33] [Server thread/INFO]: DonnoT27 lost connection: Timed out
-[01:47:33] [Server thread/INFO]: DonnoT27 left the game
-[01:47:33] [Server thread/WARN]: handleDisconnection() called twice
-[01:47:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3569ms or 71 ticks behind
-[01:48:21] [Server thread/INFO]: com.mojang.authlib.GameProfile@23ea82e4[id=d63fcb51-66e9-3d35-9a3b-9ccb34313db9,name=Camcam,properties={}] lost connection: Timed out
-[01:48:26] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2015ms or 40 ticks behind
-[01:50:04] [Server thread/INFO]: Steven_iwnl has made the advancement [Stone Age]
-[01:50:58] [Server thread/INFO]: Fervel05 was shot by Bogged
-[01:51:47] [Server thread/INFO]: KetchupsHyper[/[0:0:0:0:0:0:0:1%0]:54206] logged in with entity id 16762 at (89.5, 79.0, 1343.5)
-[01:51:47] [Server thread/INFO]: KetchupsHyper joined the game
-[01:51:54] [Server thread/INFO]: Fervel05 has made the advancement [Under Lock and Key]
-[01:51:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2028ms or 40 ticks behind
-[01:52:40] [Server thread/INFO]: KetchupsHyper has made the advancement [Sweet Dreams]
-[01:52:44] [Server thread/INFO]: RackyShao has made the advancement [Not Today, Thank You]
-[01:52:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2007ms or 40 ticks behind
-[01:53:04] [Server thread/INFO]: Yeric0ckman has made the advancement [Diamonds!]
-[01:53:07] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]
-[01:53:10] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Fervel05]
-[01:53:24] [Server thread/INFO]: Fervel05 was doomed to fall
-[01:53:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2006ms or 40 ticks behind
-[01:53:57] [Server thread/INFO]: Fervel05 has made the advancement [Take Aim]
-[01:54:29] [Server thread/INFO]: ReynFabio has made the advancement [Isn't It Iron Pick]
-[01:54:32] [Server thread/INFO]: Fervel05 was doomed to fall
-[01:54:32] [Server thread/INFO]: ReynFabio has made the advancement [Diamonds!]
-[01:54:37] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2044ms or 40 ticks behind
-[01:54:55] [Server thread/INFO]: kalibre191 has made the advancement [Isn't It Iron Pick]
-[01:55:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2022ms or 40 ticks behind
-[01:55:28] [Server thread/INFO]: Villager class_1646['Farmer'/717, l='ServerLevel[world]', x=-537.55, y=84.00, z=637.44] died, message: 'Farmer was slain by Zombie'
-[01:55:33] [Server thread/INFO]: ReynFabio has made the advancement [Suit Up]
-[01:55:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2017ms or 40 ticks behind
-[01:55:57] [Server thread/INFO]: Fervel05 was doomed to fall by Breeze
-[01:56:12] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3206ms or 64 ticks behind
-[01:56:13] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
-[01:57:11] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2029ms or 40 ticks behind
-[01:57:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2080ms or 41 ticks behind
-[01:57:52] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3626ms or 72 ticks behind
-[01:58:12] [Server thread/INFO]: Yeric0ckman lost connection: Timed out
-[01:58:12] [Server thread/INFO]: Yeric0ckman left the game
-[01:58:15] [Server thread/INFO]: ReynFabio lost connection: You logged in from another location
-[01:58:15] [Server thread/INFO]: ReynFabio left the game
-[01:58:15] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Steven_iwnl]
-[01:58:19] [Server thread/INFO]: ReynFabio[/[0:0:0:0:0:0:0:1%0]:36106] logged in with entity id 22587 at (338.4275478453762, -25.0, 1559.4167221235086)
-[01:58:19] [Server thread/INFO]: ReynFabio joined the game
-[01:58:32] [Server thread/INFO]: MrTTablon[/[0:0:0:0:0:0:0:1%0]:38366] logged in with entity id 23030 at (1.6856589468557714, 77.0, 221.54776637984054)
-[01:58:32] [Server thread/INFO]: MrTTablon joined the game
-[01:58:35] [Server thread/INFO]: RackyShao has made the advancement [Suit Up]
-[01:58:42] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2016ms or 40 ticks behind
-[01:58:46] [Server thread/INFO]: Steven_iwnl has made the advancement [Acquire Hardware]
-[01:58:48] [Server thread/INFO]: kalibre191 has made the advancement [Suit Up]
-[01:59:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2012ms or 40 ticks behind
-[01:59:29] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3588ms or 71 ticks behind
-[01:59:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4377ms or 87 ticks behind
-[02:00:08] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4727ms or 94 ticks behind
-[02:00:28] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5239ms or 104 ticks behind
-[02:00:39] [Server thread/INFO]: kalibre191 has made the advancement [Monster Hunter]
-[02:00:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4746ms or 94 ticks behind
-[02:00:56] [Server thread/INFO]: KetchupsHyper has made the advancement [Stone Age]
-[02:01:06] [Server thread/INFO]: MrTTablon has made the advancement [A Seedy Place]
-[02:01:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3749ms or 74 ticks behind
-[02:01:09] [Server thread/INFO]: KetchupsHyper has made the advancement [Getting an Upgrade]
-[02:01:22] [Server thread/INFO]: Steven_iwnl was slain by kalibre191
-[02:01:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3434ms or 68 ticks behind
-[02:01:31] [Server thread/INFO]: [RackyShao: Teleported Steven_iwnl to RackyShao]
-[02:01:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4224ms or 84 ticks behind
-[02:02:05] [Server thread/INFO]: Steven_iwnl lost connection: Timed out
-[02:02:05] [Server thread/INFO]: Steven_iwnl left the game
-[02:02:10] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10702ms or 214 ticks behind
-[02:02:12] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]
-[02:02:17] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Fervel05]
-[02:02:32] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7442ms or 148 ticks behind
-[02:02:57] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9849ms or 196 ticks behind
-[02:03:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11273ms or 225 ticks behind
-[02:03:48] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
-[02:03:51] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12754ms or 255 ticks behind
-[02:04:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12040ms or 240 ticks behind
-[02:04:32] [pool-5-thread-1/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_grove], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_swedish], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_sparse_jungle], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_nilotic], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_mediterranean]] from pos class_2338{x=-523, y=81, z=123}
-[02:04:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-524, y=80, z=123} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[02:04:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=-524, y=80, z=123}
-[02:04:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-523, y=81, z=123} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[02:04:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=-523, y=81, z=123}
-[02:04:35] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=-524, y=81, z=123} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[02:04:35] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=-524, y=81, z=123}
-[02:04:47] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14072ms or 281 ticks behind
-[02:05:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12671ms or 253 ticks behind
-[02:05:41] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11878ms or 237 ticks behind
-[02:06:07] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10627ms or 212 ticks behind
-[02:06:18] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]
-[02:06:31] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9060ms or 181 ticks behind
-[02:06:36] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
-[02:06:55] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9353ms or 187 ticks behind
-[02:07:16] [Server thread/INFO]: KetchupsHyper has made the advancement [Monster Hunter]
-[02:07:21] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10912ms or 218 ticks behind
-[02:07:43] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6457ms or 129 ticks behind
-[02:08:06] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8405ms or 168 ticks behind
-[02:08:08] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]
-[02:08:30] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8676ms or 173 ticks behind
-[02:08:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14173ms or 283 ticks behind
-[02:09:10] [Server thread/WARN]: RackyShao moved too quickly! -1.401152991982599,-3.374272873763992,9.407183524961738
-[02:09:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12812ms or 256 ticks behind
-[02:09:53] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 11455ms or 229 ticks behind
-[02:10:18] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 9821ms or 196 ticks behind
-[02:10:26] [Server thread/WARN]: RackyShao moved too quickly! -9.532337960059522,2.626919546032628,-4.99951127344184
-[02:10:26] [Server thread/WARN]: ReynFabio moved too quickly! 9.17997635385126,0.001335979112141672,-4.311713084112398
-[02:10:26] [Server thread/WARN]: MrTTablon moved too quickly! -6.321725045874501,1.495200877005928,-7.7441587523225905
-[02:10:26] [Server thread/WARN]: Matirex53 moved too quickly! 9.587106796628103,1.604424101326714,3.159457664313152
-[02:10:48] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14560ms or 291 ticks behind
-[02:10:49] [Server thread/INFO]: [RackyShao: Teleported RackyShao to kalibre191]
-[02:10:54] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
-[02:11:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 10237ms or 204 ticks behind
-[02:11:14] [pool-5-thread-2/INFO]: Searching for closest structure among [ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_mediterranean], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_tudor], ResourceKey[minecraft:worldgen/structure / minecraft:village_taiga], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_meadow], ResourceKey[minecraft:worldgen/structure / towns_and_towers:exclusives/village_iberian], ResourceKey[minecraft:worldgen/structure / minecraft:village_desert], ResourceKey[minecraft:worldgen/structure / towns_and_towers:village_swamp], ResourceKey[minecraft:worldgen/structure / minecraft:village_snowy]] from pos class_2338{x=325, y=78, z=2171}
-[02:11:15] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=324, y=77, z=2171} but found not block entity block Block{minecraft:lantern}[hanging=true,waterlogged=false] at location
-[02:11:15] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:lantern}[hanging=true,waterlogged=false] but failed at location class_2338{x=324, y=77, z=2171}
-[02:11:15] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=325, y=78, z=2171} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[02:11:15] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=325, y=78, z=2171}
-[02:11:15] [Server thread/WARN]: Tried to load a DUMMY block entity @ class_2338{x=324, y=78, z=2171} but found not block entity block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] at location
-[02:11:15] [Server thread/WARN]: Tried to load a block entity for block Block{minecraft:spruce_trapdoor}[facing=north,half=bottom,open=false,powered=false,waterlogged=false] but failed at location class_2338{x=324, y=78, z=2171}
-[02:11:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7830ms or 156 ticks behind
-[02:11:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8874ms or 177 ticks behind
-[02:12:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 8778ms or 175 ticks behind
-[02:12:41] [Thread-72/WARN]: failed to fetch skin
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2578) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2577) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2562) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:12:46] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7590ms or 151 ticks behind
-[02:12:46] [Server thread/INFO]: DonnoT27[/[0:0:0:0:0:0:0:1%0]:33392] logged in with entity id 37095 at (243.63284507070014, -25.0, 1527.4344874401763)
-[02:12:46] [Server thread/INFO]: DonnoT27 joined the game
-[02:13:13] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12484ms or 249 ticks behind
-[02:13:37] [Thread-73/WARN]: failed to fetch skin
-java.lang.IllegalStateException: not found
-	at knot/net.lionarius.skinrestorer.util.WebUtils.throwOnClientErrors(WebUtils.java:77) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.getProfile(MojangSkinProvider.java:126) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.lambda$static$0(MojangSkinProvider.java:52) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3312.method_14509(class_3312.java:95) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3312.method_14515(class_3312.java:150) ~[server-intermediary.jar:?]
-	at knot/net.lionarius.skinrestorer.skin.provider.MojangSkinProvider.fetchSkin(MojangSkinProvider.java:97) ~[skinrestorer-2.1.0+1.21-fabric.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$skinrestorer$fetchSkin$1$2(class_3248.java:2578) ~[server-intermediary.jar:?]
-	at java.base/java.util.Optional.map(Optional.java:260) ~[?:?]
-	at knot/net.minecraft.class_3248.skinrestorer$fetchSkin(class_3248.java:2577) ~[server-intermediary.jar:?]
-	at knot/net.minecraft.class_3248.mdf8a520$skinrestorer$lambda$waitForSkin$0$3(class_3248.java:2562) ~[server-intermediary.jar:?]
-	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[02:13:40] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 12112ms or 242 ticks behind
-[02:13:43] [Server thread/INFO]: Yeric0ckman[/[0:0:0:0:0:0:0:1%0]:50582] logged in with entity id 38234 at (370.69999998807907, -19.0, 1658.300000011921)
-[02:13:43] [Server thread/INFO]: Yeric0ckman joined the game
-[02:14:05] [Server thread/INFO]: [Not Secure] <DonnoT27> mrtablon x Yericockman
-[02:14:08] [Server thread/INFO]: [Not Secure] <Yeric0ckman> SI
-[02:14:15] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 20206ms or 404 ticks behind
-[02:14:22] [Server thread/INFO]: [Not Secure] <DonnoT27> es canon señoras viva el cine
-[02:14:42] [Server thread/INFO]: [Not Secure] <DonnoT27> tmr solo 15 diamantes pipipi
-[02:14:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 13763ms or 275 ticks behind
-[02:15:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 14348ms or 286 ticks behind
-[02:15:44] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15146ms or 302 ticks behind
-[02:16:00] [Server thread/INFO]: Matirex53 has made the advancement [Best Friends Forever]
-[02:16:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15621ms or 312 ticks behind
-[02:16:33] [Worker-Main-1/WARN]: Moog's Voyager Structures: Empty or nonexistent pool: mvs:mine_with_campsite/side_pool which is being called from mvs:other_decoration/mine_with_campsite
-[02:16:45] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 15451ms or 309 ticks behind
+[02:35:06] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.4+mixin.0.8.7/sponge-mixin-0.15.4+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[02:35:06] [main/INFO]: Compatibility level set to JAVA_21
+[02:35:06] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[02:35:07] [main/WARN]: Error loading class: vectorwing/farmersdelight/common/block/TomatoVineBlock (java.lang.ClassNotFoundException: vectorwing/farmersdelight/common/block/TomatoVineBlock)
+[02:35:07] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[02:35:07] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[02:35:08] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[02:35:22] [main/INFO]: Biolith for Fabric is initializing...
+[02:35:23] [main/INFO]: Enabling Cinderscapes' Biolith worldgen module.
+[02:35:23] [main/INFO]: Constructing common components for easyanvils:main
+[02:35:23] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[02:35:23] [main/INFO]: Constructing common components for easymagic:main
+[02:35:23] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[02:35:23] [main/WARN]: [JUST ZOOM] Disabling 'Just Zoom' since it's a client-side mod and current environment is server!
+[02:35:23] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[02:35:23] [main/INFO]: ---------------------------
+[02:35:23] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[02:35:23] [main/INFO]:  
+[02:35:23] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[02:35:23] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[02:35:23] [main/INFO]:  
+[02:35:23] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[02:35:23] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[02:35:23] [main/INFO]:  
+[02:35:23] [main/INFO]: Json-smart Copyright © netplex.
+[02:35:23] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[02:35:23] [main/INFO]:  
+[02:35:23] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[02:35:23] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[02:35:23] [main/INFO]: ---------------------------
+[02:35:23] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[02:35:23] [main/INFO]: Constructing common components for puzzleslib:main
+[02:35:24] [main/INFO]: Loaded config supplementaries-common.json
+[02:35:26] [main/INFO]: Initialized block sets in 21ms
+[02:35:26] [main/ERROR]: No data fixer registered for dispenser_minecart
+[02:35:26] [main/ERROR]: No data fixer registered for falling_urn
+[02:35:26] [main/ERROR]: No data fixer registered for falling_ash
+[02:35:26] [main/ERROR]: No data fixer registered for falling_sack
+[02:35:26] [main/ERROR]: No data fixer registered for brick_projectile
+[02:35:26] [main/ERROR]: No data fixer registered for slimeball_projectile
+[02:35:26] [main/ERROR]: No data fixer registered for bomb
+[02:35:26] [main/ERROR]: No data fixer registered for cannonball
+[02:35:26] [main/ERROR]: No data fixer registered for rope_arrow
+[02:35:26] [main/ERROR]: No data fixer registered for slingshot_projectile
+[02:35:26] [main/INFO]: Initialized color sets in 56ms
+[02:35:26] [main/INFO]: Finished mod setup in: [0, 1, 0, 0, 18, 3, 1] ms
+[02:35:26] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[02:35:26] [main/ERROR]: Registry 'terraform:boat' was empty after loading
+[02:35:27] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[02:35:27] [main/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (Supplementaries) in: 37 ms
+[02:35:29] [Worker-Main-1/ERROR]: Couldn't parse element minecraft:loot_table/mvs:rare - Failed to parse either. First: Not a valid resource location: #minecraft:enchant_with_levels Non [a-z0-9_.-] character in namespace of location: #minecraft:enchant_with_levels; Second: Not a json array: {"function":"#minecraft:enchant_with_levels","options":"#minecraft:on_random_loot","levels":{"type":"minecraft:uniform","min":20,"max":39},"treasure":true}
+[02:35:29] [Worker-Main-1/WARN]: Found loot table element validation problem in {minecraft:loot_table/minecraft:blocks/snow_block}.pools[0].entries[0]: Unreachable entry!
+[02:35:31] [main/INFO]: Loaded 1782 recipes
+[02:35:31] [main/INFO]: Loaded 1649 advancements
+[02:35:31] [Thread-3/INFO]: Loaded 58 translation keys
+[02:35:31] [main/INFO]: Loaded 27 flute songs
+[02:35:31] [main/WARN]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:item] are present in data pack: c:ingots/lead, c:storage_blocks/lead, supplementaries:buntings, supplementaries:concrete_powders
+[02:35:32] [main/INFO]: Registering custom dispenser behaviors
+[02:35:33] [main/INFO]: Applied 155 biome modifications to 78 of 94 new biomes in 27.87 ms
+[02:35:33] [Server thread/INFO]: Dispatching loading event for config easyanvils-server.toml
+[02:35:33] [Server thread/INFO]: Dispatching loading event for config easymagic-server.toml
+[02:35:33] [Server thread/INFO]: Starting minecraft server version 1.21.1
+[02:35:33] [Server thread/INFO]: Loading properties
+[02:35:33] [Server thread/INFO]: Default game type: SURVIVAL
+[02:35:33] [Server thread/INFO]: Generating keypair
+[02:35:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[02:35:34] [Server thread/INFO]: Using epoll channel type
+[02:35:34] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[02:35:34] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[02:35:34] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[02:35:34] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[02:35:34] [Server thread/INFO]: Preparing level "world"
+[02:35:50] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[02:35:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:35:51] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[02:35:51] [Worker-Main-1/INFO]: Preparing spawn area: 14%
+[02:35:52] [Server thread/INFO]: Time elapsed: 1201 ms
+[02:35:52] [Server thread/INFO]: Done (18.049s)! For help, type "help"
+[02:35:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[02:35:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[02:35:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[02:35:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[02:35:52] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[02:35:52] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[02:35:52] [Server thread/INFO]: Start loading plugin from Supplementaries: net.mehvahdjukaar.supplementaries.integration.JadeCompat
+[02:35:52] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_faucet_test_level' in favor of 'minecraft:overworld'
+[02:36:23] [Server thread/WARN]: More than one Overworld dimension world created; cowardly ignoring 'minecraft:server_projectile_test_level' in favor of 'minecraft:overworld'
+[02:36:23] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 31473ms or 629 ticks behind
+[02:36:23] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[02:38:50] [Server thread/INFO]: RackyShao[/[0:0:0:0:0:0:0:1%0]:57820] logged in with entity id 35 at (-486.6412171416719, 7.0, 1676.2873631588984)
+[02:38:50] [Server thread/INFO]: RackyShao joined the game
+[02:38:54] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[02:38:55] [Server thread/WARN]: UUID of added entity already exists: class_1551['Drowned'/226, l='ServerLevel[world]', x=-624.06, y=51.00, z=1690.14]
