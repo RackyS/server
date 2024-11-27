@@ -13,12 +13,14 @@
   },
   "minecraft:adventure/distant_lands": {
     "criteria": {
+      "minecraft:taiga": "2024-11-27 00:57:57 +0000",
       "minecraft:plains": "2024-11-26 04:36:58 +0000"
     },
     "done": false
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:taiga": "2024-11-27 00:57:57 +0000",
       "minecraft:plains": "2024-11-26 04:36:58 +0000"
     },
     "done": false
@@ -309,6 +311,493 @@
   "minecraft:recipes/redstone/redstone": {
     "criteria": {
       "has_redstone_block": "2024-11-26 04:49:40 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/warped_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/bamboo_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/bamboo_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/spruce_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/crimson_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/bookshelf": {
+    "criteria": {
+      "has_the_recipe": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/cherry_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/birch_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/jungle_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/crimson_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/mangrove_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/acacia_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/dark_oak_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/writable_book": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/birch_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/mangrove_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/dark_oak_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/warped_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/lectern": {
+    "criteria": {
+      "has_the_recipe": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/dark_oak_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/jungle_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/acacia_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/spruce_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/cherry_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/bamboo_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/mangrove_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/cherry_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/acacia_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/warped_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/jungle_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/redstone/birch_lectern": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/crimson_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/chiseled_bookshelf": {
+    "criteria": {
+      "has_the_recipe": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/building_blocks/spruce_chiseled_bookshelf": {
+    "criteria": {
+      "has_book": "2024-11-27 00:54:36 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/mangrove_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/book": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/cartography_table": {
+    "criteria": {
+      "has_the_recipe": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/spruce_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/warped_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/jungle_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/birch_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/acacia_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/oak_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/crimson_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/cherry_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/bamboo_cartography_table": {
+    "criteria": {
+      "has_paper": "2024-11-27 00:54:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_campfire_cooking": {
+    "criteria": {
+      "has_chicken": "2024-11-27 00:58:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken": {
+    "criteria": {
+      "has_chicken": "2024-11-27 00:58:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_sign": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/arrow": {
+    "criteria": {
+      "has_feather": "2024-11-27 01:02:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_wood": {
+    "criteria": {
+      "has_log": "2024-11-27 00:58:15 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/spruce_crafting_table": {
+    "criteria": {
+      "has_spruce_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-11-27 00:59:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/spruce_fence": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_slab": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_button": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/spruce_planks": {
+    "criteria": {
+      "has_logs": "2024-11-27 00:58:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_smoking": {
+    "criteria": {
+      "has_beef": "2024-11-27 01:02:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_chicken_from_smoking": {
+    "criteria": {
+      "has_chicken": "2024-11-27 00:58:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/charcoal": {
+    "criteria": {
+      "has_log": "2024-11-27 00:58:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/spruce_chest": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_door": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/spruce_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2024-11-27 01:04:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "chicken": "2024-11-27 00:59:02 +0000",
+      "beef": "2024-11-27 01:03:59 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/spruce_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-27 00:58:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef": {
+    "criteria": {
+      "has_beef": "2024-11-27 01:02:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_beef_from_campfire_cooking": {
+    "criteria": {
+      "has_beef": "2024-11-27 01:02:53 +0000"
     },
     "done": true
   },
