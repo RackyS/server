@@ -338,3 +338,9 @@ Caused by: java.io.IOException: Invalid tag id: 116
 [03:26:27] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 4951ms or 99 ticks behind
 [03:26:35] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Fervel05]
 [03:26:36] [Server thread/WARN]: Jere167 moved too quickly! -0.7342071369290863,-1.7539862017387549,-9.87184286159254
+[03:26:54] [Server thread/INFO]: Jere167 has made the advancement [Sweet Dreams]
+[03:27:01] [Server thread/INFO]: [Not Secure] <Jere167> zzzz
+[03:27:02] [Server thread/INFO]: [RackyShao: Teleported RackyShao to Jere167]
+[03:27:05] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 23069ms or 461 ticks behind
+[03:27:08] [Server thread/INFO]: [RackyShao: Set own game mode to Survival Mode]
+[03:27:14] [Server thread/INFO]: [RackyShao: Set own game mode to Spectator Mode]

@@ -14,6 +14,7 @@
   "minecraft:adventure/distant_lands": {
     "criteria": {
       "minecraft:old_growth_birch_forest": "2024-11-27 02:14:01 +0000",
+      "minecraft:dark_forest": "2024-11-27 03:26:30 +0000",
       "minecraft:forest": "2024-11-27 01:04:43 +0000",
       "minecraft:taiga": "2024-11-27 00:57:55 +0000",
       "minecraft:river": "2024-11-27 01:01:20 +0000",
@@ -25,6 +26,7 @@
   },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:dark_forest": "2024-11-27 03:26:30 +0000",
       "minecraft:forest": "2024-11-27 01:04:43 +0000",
       "minecraft:taiga": "2024-11-27 00:57:55 +0000",
       "minecraft:river": "2024-11-27 01:01:20 +0000",
@@ -618,6 +620,7 @@
     "criteria": {
       "mutton": "2024-11-27 00:56:05 +0000",
       "chicken": "2024-11-27 00:56:12 +0000",
+      "cooked_chicken": "2024-11-27 03:26:03 +0000",
       "cooked_mutton": "2024-11-27 01:29:07 +0000",
       "cooked_beef": "2024-11-27 01:06:16 +0000",
       "porkchop": "2024-11-27 00:56:02 +0000"
@@ -1665,6 +1668,12 @@
   "minecraft:recipes/transportation/powered_rail": {
     "criteria": {
       "has_rail": "2024-11-27 02:00:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-11-27 03:25:54 +0000"
     },
     "done": true
   },

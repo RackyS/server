@@ -505,6 +505,7 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "minecraft:cave_spider": "2024-11-27 01:55:54 +0000",
+      "minecraft:skeleton": "2024-11-27 03:24:15 +0000",
       "minecraft:zombie": "2024-11-27 00:58:44 +0000"
     },
     "done": false
@@ -1340,6 +1341,12 @@
   "minecraft:recipes/brewing/fermented_spider_eye": {
     "criteria": {
       "has_spider_eye": "2024-11-27 01:55:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/deflect_arrow": {
+    "criteria": {
+      "deflected_projectile": "2024-11-27 03:25:19 +0000"
     },
     "done": true
   },
