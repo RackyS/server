@@ -1,0 +1,161 @@
+{
+  "variantvanillablocks:recipes/misc/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2024-11-26 03:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-26 03:53:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/distant_lands": {
+    "criteria": {
+      "minecraft:plains": "2024-11-26 03:53:55 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-11-26 03:53:55 +0000"
+    },
+    "done": false
+  },
+  "variantvanillablocks:recipes/decorations/barrel": {
+    "criteria": {
+      "has_the_recipe": "2024-11-26 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_spruce_slab": "2024-11-26 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/decorations/composter": {
+    "criteria": {
+      "has_the_recipe": "2024-11-26 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_spruce_planks": "2024-11-26 03:55:46 +0000",
+      "has_spruce_slab": "2024-11-26 03:55:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/stick": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:zombie": "2024-11-26 04:24:43 +0000",
+      "minecraft:creeper": "2024-11-26 04:24:54 +0000"
+    },
+    "done": false
+  },
+  "variantvanillablocks:recipes/decorations/jungle_barrel": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_button": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_stairs": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_fence_gate": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/jungle_crafting_table": {
+    "criteria": {
+      "has_jungle_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_trapdoor": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "variantvanillablocks:recipes/misc/jungle_chest": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_sign": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_door": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-11-26 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/jungle_fence": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/jungle_pressure_plate": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2024-11-26 04:24:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/firework_rocket_simple": {
+    "criteria": {
+      "has_gunpowder": "2024-11-26 04:24:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tnt": {
+    "criteria": {
+      "has_gunpowder": "2024-11-26 04:24:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/jungle_slab": {
+    "criteria": {
+      "has_planks": "2024-11-26 04:29:31 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}

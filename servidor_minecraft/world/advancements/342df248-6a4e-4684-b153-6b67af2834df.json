@@ -1,0 +1,27 @@
+{
+  "variantvanillablocks:recipes/misc/crafting_table": {
+    "criteria": {
+      "has_the_recipe": "2024-11-26 03:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/distant_lands": {
+    "criteria": {
+      "minecraft:plains": "2024-11-26 03:47:17 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-11-26 03:47:17 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-11-26 03:47:17 +0000"
+    },
+    "done": false
+  },
+  "DataVersion": 3955
+}
