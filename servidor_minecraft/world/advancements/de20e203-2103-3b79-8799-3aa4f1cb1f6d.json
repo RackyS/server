@@ -623,6 +623,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:10:36 +0000"
+    },
+    "done": true
+  },
   "variantvanillablocks:recipes/decorations/mangrove_smoker": {
     "criteria": {
       "has_furnace": "2024-11-27 01:05:43 +0000"
@@ -638,6 +644,12 @@
   "variantvanillablocks:recipes/decorations/warped_smoker": {
     "criteria": {
       "has_furnace": "2024-11-27 01:05:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/birch_wood": {
+    "criteria": {
+      "has_log": "2024-11-27 01:12:27 +0000"
     },
     "done": true
   },
@@ -665,6 +677,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/birch_planks": {
+    "criteria": {
+      "has_logs": "2024-11-27 01:12:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:10:36 +0000"
+    },
+    "done": true
+  },
   "variantvanillablocks:recipes/decorations/dark_oak_smoker": {
     "criteria": {
       "has_furnace": "2024-11-27 01:05:43 +0000"
@@ -674,6 +698,12 @@
   "variantvanillablocks:recipes/decorations/cherry_smoker": {
     "criteria": {
       "has_furnace": "2024-11-27 01:05:43 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:10:36 +0000"
     },
     "done": true
   },

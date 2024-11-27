@@ -14,6 +14,7 @@
   "minecraft:adventure/distant_lands": {
     "criteria": {
       "minecraft:taiga": "2024-11-27 00:57:55 +0000",
+      "clifftree:cold_caves": "2024-11-27 01:13:36 +0000",
       "minecraft:plains": "2024-11-27 00:45:46 +0000"
     },
     "done": false
@@ -21,6 +22,7 @@
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:taiga": "2024-11-27 00:57:55 +0000",
+      "clifftree:caves": "2024-11-27 01:13:36 +0000",
       "minecraft:plains": "2024-11-27 00:45:46 +0000"
     },
     "done": false
@@ -373,7 +375,8 @@
       "apple": "2024-11-27 00:50:23 +0000",
       "bread": "2024-11-27 00:49:56 +0000",
       "rotten_flesh": "2024-11-27 01:06:14 +0000",
-      "cooked_mutton": "2024-11-27 01:06:09 +0000"
+      "cooked_mutton": "2024-11-27 01:06:09 +0000",
+      "baked_potato": "2024-11-27 01:08:07 +0000"
     },
     "done": false
   },
@@ -613,6 +616,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:skeleton": "2024-11-27 01:14:14 +0000",
       "minecraft:spider": "2024-11-27 01:00:02 +0000",
       "minecraft:zombie": "2024-11-27 00:56:15 +0000"
     },
@@ -627,6 +631,12 @@
   "minecraft:recipes/redstone/lever": {
     "criteria": {
       "has_cobblestone": "2024-11-27 01:01:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/obtain_armor": {
+    "criteria": {
+      "iron_chestplate": "2024-11-27 01:12:48 +0000"
     },
     "done": true
   },
@@ -657,6 +667,12 @@
   "minecraft:recipes/tools/stone_axe": {
     "criteria": {
       "has_cobblestone": "2024-11-27 01:01:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/raw_iron_block": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:08:37 +0000"
     },
     "done": true
   },
@@ -858,6 +874,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/iron_ingot_from_smelting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:08:37 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/stone_pickaxe": {
     "criteria": {
       "has_cobblestone": "2024-11-27 01:01:21 +0000"
@@ -939,6 +961,12 @@
   "minecraft:recipes/building_blocks/cobblestone_slab": {
     "criteria": {
       "has_cobblestone": "2024-11-27 01:01:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/iron_ingot_from_blasting_raw_iron": {
+    "criteria": {
+      "has_raw_iron": "2024-11-27 01:08:37 +0000"
     },
     "done": true
   },
